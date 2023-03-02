@@ -1,0 +1,454 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgb(21, 21, 21);
+	color: #eeeeee;
+}
+
+/* Display */
+
+
+
+/* Navbar */
+
+.navbar{
+	padding: 2% 3%;
+}
+
+.nav-item{
+	font-size: 1.3rem;
+	margin : 0 10px;
+}
+
+.nav-link{
+	color: #eeeeee;
+	font-weight: 500;
+}
+
+.nav-link:hover{
+	color: #bcbcbc;
+}
+
+
+
+/* Banner */
+
+
+
+/* Information */
+
+#information{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1% 5%;
+	line-height: 2;
+}
+
+.info-headings{
+	font-size: 3.2rem;
+	font-weight: 900;
+}
+
+.info-details{
+	font-size: 1.5rem;
+	color: #bcbcbc;
+}
+
+/* Features */
+
+#features{
+	text-align: left;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1%;
+	line-height: 2;
+}
+
+.feature{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 3% 0;
+	width: 90vw;
+}
+
+.feature-img{
+	width: 30vw;
+	padding-right: 10%;
+}
+
+.feature-heading{
+	text-transform: uppercase;
+	font-size: 3rem;
+	font-weight: 600;
+}
+
+.feature-details{
+	font-size: 1.5rem;
+	color: #bcbcbc;
+}
+
+#f3{
+	text-align: left;
+}
+
+/* Footer */
+
+#footer{
+	background-color: rgb(30, 30, 30);
+	padding: 5% 5% 3%;
+	text-align: left;
+}
+
+.footer-heading{
+	font-size: 2.5rem;
+	font-weight: 900;
+	font-style: italic;
+}
+
+.footer-links-heading{
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+.footer-links{
+	list-style-type: none;
+}
+
+.links{
+	margin: 25px 0;
+	font-size: 1.2rem;
+}
+
+.links a{
+	text-decoration: none;
+	color: white;
+}
+
+.links a:hover{
+	color: #bcbcbc;
+}
+
+.copyright{
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.footer-email{
+	font-size: 1.7rem;
+	font-weight: 700;background: #CFB844;
+	background: linear-gradient(to right, #CFB844 0%, #FF1C86 20%, #4778FF 60%, #5FCF76 90%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.copy{
+	text-align: right;
+}
+
+@media (max-width: 480px){
+	.nav-item:nth-child(1){
+		font-size: 1.2rem;
+		margin : 15px 0 8px 0;
+	}
+
+	.nav-item:nth-child(2){
+		font-size: 1.2rem;
+		margin : 10px 0;
+	}
+
+	.nav-item:nth-child(3){
+		font-size: 1.2rem;
+		margin : 10px 0;
+	}
+
+	.nav-item:nth-child(4){
+		display: none;
+	}
+
+	.nav-item:nth-child(5){
+		font-size: 1.2rem;
+		margin : 15px 0;
+	}
+
+	.nav-item:nth-child(6){
+		display: none;
+	}
+
+	#information{
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+		line-height: 1.5;
+		width: 90vw;
+		margin: auto;
+		padding: 0;
+	}
+	
+	.info-headings{
+		font-size: 2.1rem;
+		font-weight: 900;
+	}
+	
+	.info-details{
+		font-size: 1rem;
+		color: #bcbcbc;
+	}
+
+	.info-image{
+		width: 100%;
+		padding: 5%;
+	}
+	
+	#features{
+		line-height: 1.5;
+	}
+
+	.features{
+		text-align: left;
+		flex-direction: column;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 90vw;
+		margin: auto;
+	}
+
+	.feature{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.feature-img{
+		width: 70%;
+	}
+
+	#f2,#f1{
+		padding-bottom: 18%;
+	}
+
+	#f3,#f4{
+		padding-bottom: 23%;
+	}
+
+	.feature-heading{
+		text-transform: uppercase;
+		font-size: 1.5rem;
+		font-weight: 600;
+	}
+
+	.feature-details{
+		font-size: 1rem;
+		color: #bcbcbc;
+	}
+
+	#footer{
+		background-color: rgb(30, 30, 30);
+		padding: 2% 2% 10%;
+		text-align: center;
+	}
+	
+	h2.footer-heading{
+		font-size: 2rem;
+		font-weight: 900;
+		font-style: italic;
+		margin: 40px 0;
+	}
+	
+	h3.footer-links-heading{
+		font-size: 1.6rem;
+		font-weight: 600;
+	}
+
+	.footer-links{
+		list-style-type: none;
+	}
+	
+	.links{
+		margin: 20px 0;
+	}
+
+	.links a{
+		font-size: 1.2rem;
+	}
+	
+	p.copyright{
+		margin-top: 20px;
+		font-size: 1.2rem;
+		font-weight: 500;
+	}
+	
+	p.footer-email{
+		font-size: 1.5rem;
+		font-weight: 700;
+		background: #CFB844;
+		background: linear-gradient(to right, #CFB844 0%, #FF1C86 20%, #4778FF 60%, #5FCF76 90%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	
+	.copy{
+		text-align: center;
+	}
+}
+
+@media (max-width: 768px){
+	.nav-item:nth-child(1){
+		font-size: 1.2rem;
+		margin : 15px 0 8px 0;
+	}
+
+	.nav-item:nth-child(2){
+		font-size: 1.2rem;
+		margin : 10px 0;
+	}
+
+	.nav-item:nth-child(3){
+		font-size: 1.2rem;
+		margin : 10px 0;
+	}
+
+	.nav-item:nth-child(4){
+		display: none;
+	}
+
+	.nav-item:nth-child(5){
+		font-size: 1.2rem;
+		margin : 15px 0;
+	}
+
+	.nav-item:nth-child(6){
+		display: none;
+	}
+
+
+	#footer{
+		background-color: rgb(30, 30, 30);
+		padding: 2% 5% 10%;
+		text-align: center;
+	}
+	
+	h2.footer-heading{
+		font-size: 2rem;
+		font-weight: 900;
+		font-style: italic;
+		margin: 40px 0;
+	}
+	
+	h3.footer-links-heading{
+		font-size: 1.6rem;
+		font-weight: 600;
+	}
+
+	.footer-links{
+		list-style-type: none;
+	}
+	
+	.links{
+		margin: 20px 0;
+	}
+
+	.links a{
+		font-size: 1.2rem;
+	}
+	
+	p.copyright{
+		margin-top: 20px;
+		font-size: 1.2rem;
+		font-weight: 500;
+	}
+	
+	p.footer-email{
+		font-size: 1.5rem;
+		font-weight: 700;
+		background: #CFB844;
+		background: linear-gradient(to right, #CFB844 0%, #FF1C86 20%, #4778FF 60%, #5FCF76 90%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	
+	.copy{
+		text-align: center;
+	}
+}
+
+@media (max-width: 1024px) {
+
+	.nav-item:nth-child(1){
+		font-size: 1.2rem;
+		margin : 15px 0 8px 0;
+	}
+
+	.nav-item:nth-child(2){
+		font-size: 1.2rem;
+		margin : 10px 0;
+	}
+
+	.nav-item:nth-child(3){
+		font-size: 1.2rem;
+		margin : 10px 0;
+	}
+
+	.nav-item:nth-child(4){
+		display: none;
+	}
+
+	.nav-item:nth-child(5){
+		font-size: 1.2rem;
+		margin : 15px 0;
+	}
+
+	.nav-item:nth-child(6){
+		display: none;
+	}
+
+	#footer{
+		background-color: rgb(30, 30, 30);
+		padding: 2% 15% 10%;
+		text-align: center;
+	}
+	
+	.footer-heading{
+		font-size: 2.5rem;
+		font-weight: 900;
+		font-style: italic;
+		margin: 20px 0;
+	}
+	
+	.footer-links-heading{
+		font-size: 1.8rem;
+		font-weight: 600;
+	}
+
+	.footer-links{
+		list-style-type: none;
+	}
+	
+	.links{
+		margin: 30px 0;
+		font-size: 1.3rem;
+	}
+	
+	.copyright{
+		font-size: 1.5rem;
+		font-weight: 500;
+	}
+	
+	.footer-email{
+		font-size: 1.7rem;
+		font-weight: 700;
+		background: #CFB844;
+		background: linear-gradient(to right, #CFB844 0%, #FF1C86 20%, #4778FF 60%, #5FCF76 90%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	
+	.copy{
+		text-align: center;
+	}
+}
