@@ -109,6 +109,10 @@ body{
 	line-height: 2;
 }
 
+.info-para{
+	padding-right: 5%;
+}
+
 .info-headings{
 	font-size: 3.2rem;
 	font-weight: 900;
