@@ -312,7 +312,7 @@ body{
 	}
 }
 
-@media (max-width: 768px and min-width: 400px) {
+@media (max-width: 768px) and (min-width: 480px) {
 
 	body{
 		padding: 0;
@@ -321,12 +321,12 @@ body{
 	}
 	
 	.nav-item{
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		margin : 0 10px;
 	}
 	
 	.nav-link{
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		color: #eeeeee;
 		font-weight: 500;
 	}
@@ -367,12 +367,12 @@ body{
 	}
 	
 	.info-headings{
-		font-size: 2.3rem;
+		font-size: 2.1rem;
 		font-weight: 900;
 	}
 	
 	.info-details{
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		color: #bcbcbc;
 	}
 
@@ -416,12 +416,12 @@ body{
 
 	.feature-heading{
 		text-transform: uppercase;
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		font-weight: 600;
 	}
 
 	.feature-details{
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		color: #bcbcbc;
 	}
 
@@ -432,14 +432,14 @@ body{
 	}
 	
 	.footer-heading{
-		font-size: 2.3rem;
+		font-size: 2.1rem;
 		font-weight: 900;
 		font-style: italic;
 		margin: 40px 0;
 	}
 	
 	.footer-links-heading{
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		font-weight: 600;
 	}
 
@@ -452,17 +452,17 @@ body{
 	}
 
 	.links a{
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 	}
 	
 	.copyright{
 		margin-top: 20px;
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		font-weight: 500;
 	}
 	
 	.footer-email{
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		font-weight: 700;
 		background: #CFB844;
 		background: linear-gradient(to right, #CFB844 0%, #FF1C86 20%, #4778FF 60%, #5FCF76 90%);
@@ -477,7 +477,7 @@ body{
 
 
 
-@media (max-width: 1024px and min-width: 768px){
+@media (max-width: 1024px) and (min-width: 768px){
 
 	body{
 		padding: 0;
