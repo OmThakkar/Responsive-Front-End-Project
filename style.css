@@ -32,6 +32,17 @@ body{
 	color: #bcbcbc;
 }
 
+.navbar-brand img{
+	height: 6vh;
+}
+
+.btn-primary{
+	background-color: rgb(103, 171, 248);
+}
+
+.btn-primary:hover{
+	background-color: rgb(67, 164, 255);
+}
 /* Banner */
 
 #banner{
@@ -59,6 +70,7 @@ body{
 	font-size: 3.2rem;
 	font-weight: 700;
 	font-style: italic;
+	margin: 0;
 }
 
 .banner-tagline h1{
@@ -84,6 +96,7 @@ body{
 	font-size: 1.8rem;
 	font-weight: 500;
 	text-align: left;
+	padding: 2% 0;
 }
 
 /* Information */
@@ -121,7 +134,7 @@ body{
 .feature{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	margin: 3% 0;
 	width: 90vw;
@@ -130,6 +143,10 @@ body{
 .feature-img{
 	width: 30vw;
 	padding-right: 10%;
+}
+
+#f3,#f4{
+	padding-bottom: 10%;
 }
 
 .feature-heading{
@@ -155,6 +172,8 @@ body{
 	font-size: 2.5rem;
 	font-weight: 900;
 	font-style: italic;
+	padding: 0;
+	margin: 0;
 }
 
 .footer-links-heading{
@@ -203,6 +222,14 @@ body{
 		padding: 0;
 		margin: 0;
 		width: 100vw;
+	}
+
+	#navbar{
+		padding: 12px 0;
+	}
+
+	.navbar-brand img{
+		height: 3vh;
 	}
 	
 	.nav-item{
@@ -261,13 +288,14 @@ body{
 	
 	.brand-logo img{
 		height: 5vh;
-		padding: 5%;
+		padding: 0 10px;
 	}
 	
 	.brand-name h2{
 		font-size: 1.8rem;
 		font-weight: 700;
 		font-style: italic;
+		margin: 0;
 	}
 	
 	.banner-tagline h1{
@@ -359,7 +387,7 @@ body{
 	}
 
 	#f3,#f4{
-		padding-bottom: 20%;
+		padding-bottom: 18%;
 	}
 
 	.feature-heading{
@@ -431,6 +459,14 @@ body{
 		margin: 0;
 		width: 100vw;
 	}
+
+	#navbar{
+		padding: 16px 0;
+	}
+
+	.navbar-brand img{
+		height: 4vh;
+	}
 	
 	.nav-item{
 		font-size: 1.3rem;
@@ -465,6 +501,69 @@ body{
 
 	.nav-item:nth-child(6){
 		display: none;
+	}
+	
+	#banner{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+		line-height: 1.5;
+		width: 90vw;
+		margin: auto;
+		text-align: center;
+	}
+	
+	.brand{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 3% 0;
+	}
+	
+	.brand-logo img{
+		height: 5vh;
+		padding: 0 10px;
+	}
+	
+	.brand-name h2{
+		font-size: 2.1rem;
+		font-weight: 700;
+		font-style: italic;
+		margin: 0;
+	}
+	
+	.banner-tagline h1{
+		font-size: 2.4rem;
+		font-weight: 900;
+		width: 90%;
+		margin: auto;
+		text-align: center;
+		padding-bottom: 3%;
+		background: #CFB844;
+		background: linear-gradient(to right, #CFB844 0%, #FF1C86 20%, #4778FF 60%, #5FCF76 90%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	
+	.banner-info h3{
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 1.3rem;
+	}
+
+	.banner-image img{
+		width: 100%;
+		padding: 5%;
+	}
+	
+	.banner-moto p{
+		font-size: 1.3rem;
+		font-weight: 500;
+		width: 80%;
+		margin: auto;
+		text-align: center;
 	}
 
 	#information{
@@ -589,7 +688,7 @@ body{
 
 
 
-@media (max-width: 1000px) and (min-width: 768px){
+@media (max-width: 991px) and (min-width: 768px){
 
 	body{
 		padding: 0;
@@ -597,6 +696,14 @@ body{
 		width: 100vw;
 	}
 	
+	#navbar{
+		padding: 16px 0;
+	}
+
+	.navbar-brand img{
+		height: 3vh;
+	}
+
 	.nav-item{
 		font-size: 1.6rem;
 		margin : 0 10px;
@@ -630,6 +737,68 @@ body{
 
 	.nav-item:nth-child(6){
 		display: none;
+	}
+
+	#banner{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+		line-height: 1.5;
+		width: 90vw;
+		margin: auto;
+		text-align: center;
+	}
+	
+	.brand{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 3% 0;
+	}
+	
+	.brand-logo img{
+		height: 5vh;
+		padding: 0 10px;
+	}
+	
+	.brand-name h2{
+		font-size: 2.1rem;
+		font-weight: 700;
+		font-style: italic;
+		margin: 0;
+	}
+	
+	.banner-tagline h1{
+		font-size: 2.5rem;
+		font-weight: 900;
+		width: 100%;
+		text-align: center;
+		padding-bottom: 3%;
+		background: #CFB844;
+		background: linear-gradient(to right, #CFB844 0%, #FF1C86 20%, #4778FF 60%, #5FCF76 90%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	
+	.banner-info h3{
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 1.5rem;
+	}
+
+	.banner-image img{
+		width: 100%;
+		padding: 5%;
+	}
+	
+	.banner-moto p{
+		font-size: 1.6rem;
+		font-weight: 500;
+		width: 80%;
+		margin: auto;
+		text-align: center;
 	}
 
 	#information{
